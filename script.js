@@ -35,9 +35,15 @@
   let cap1 = { ...person };
 
   // Print the results
-  console.log('Original players array:', players);
-  console.log('Team array (reference):', team);
-  console.log('Team1 array (copy):', team1);
-  console.log('Original person object:', person);
-  console.log('Cap1 object (copy):', cap1);
+  // console.log('Original players array:', players);
+  // console.log('Team array (reference):', team);
+  // console.log('Team1 array (copy):', team1);
+  // console.log('Original person object:', person);
+  // console.log('Cap1 object (copy):', cap1);
 // </script>
+window.players = players;
+window.person = person;
+window.team = team;
+window.team1 = team1;
+window.cap1 = cap1;
+
