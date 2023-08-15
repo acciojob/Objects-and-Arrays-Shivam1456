@@ -32,7 +32,7 @@
   let team1 = players.slice();
 
   // Create a copy of the person object
-  let cap1 = { ...person };
+  // let cap1 = { ...person };
 
   // Print the results
   // console.log('Original players array:', players);
